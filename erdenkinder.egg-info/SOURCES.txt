@@ -1,0 +1,12 @@
+README.txt
+setup.cfg
+setup.py
+erdenkinder/__init__.py
+erdenkinder/fanstatic.py
+erdenkinder.egg-info/PKG-INFO
+erdenkinder.egg-info/SOURCES.txt
+erdenkinder.egg-info/dependency_links.txt
+erdenkinder.egg-info/entry_points.txt
+erdenkinder.egg-info/not-zip-safe
+erdenkinder.egg-info/requires.txt
+erdenkinder.egg-info/top_level.txt

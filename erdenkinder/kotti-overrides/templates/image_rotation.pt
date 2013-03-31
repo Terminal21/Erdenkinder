@@ -1,0 +1,13 @@
+<?python
+import erdenkinder
+import random
+from os import listdir,path
+
+images =  listdir(path.join(path.dirname(erdenkinder.__file__), 'static/rotation'))
+random.shuffle(images)
+?>
+
+<div id="rotation">
+    <img tal:repeat="item range(3)" tal:attributes="src '/fanstatic/erdenkinder/rotation/'+images.pop()" />
+</div>
+

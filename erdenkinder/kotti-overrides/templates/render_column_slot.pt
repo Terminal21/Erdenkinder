@@ -1,0 +1,3 @@
+<div tal:replace="api.render_template('kotti:templates/image_rotation.pt')" />
+<div tal:repeat="snippet slot" tal:content="structure snippet">
+</div>
