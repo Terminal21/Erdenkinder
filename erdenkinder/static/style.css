@@ -6,6 +6,8 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    font-family: 'ComicSansMS', 'Comic Sans MS', sans-serif;
+    color: #424242;
 }
 
 a, a:hover {
@@ -30,10 +32,10 @@ div#rotation {
 div#rotation img {
     background: #fff;
     display: inline-block;
-    padding: 10px;
+    padding: 4px;
     margin: 10px;
-    box-shadow: 2px 2px 4px 0px #333;
-    -webkit-box-shadow: 2px 2px 4px 0px #333;
-    -moz-box-shadow: 2px 2px 4px 0px #333;
-    -o-box-shadow: 2px 2px 4px 0px #333;
+    box-shadow: 1px 1px 2px 0 #666;
+    -webkit-box-shadow: 1px 1px 2px 0 #666;
+    -moz-box-shadow: 1px 1px 2px 0 #666;
+    -o-box-shadow: 1px 1px 2px 0 #666;
 }
