@@ -38,10 +38,4 @@ setup(name=project,
           'erdenkinder = erdenkinder.fanstatic:library',
         ],
       },
-      extras_require={},
-      message_extractors={'erdenkinder': [
-            ('**.py', 'lingua_python', None),
-            ('**.zcml', 'lingua_xml', None),
-            ('**.pt', 'lingua_xml', None),
-            ]},
       )
