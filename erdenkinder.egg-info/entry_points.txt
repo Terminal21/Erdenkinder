@@ -1,3 +1,0 @@
-[fanstatic.libraries]
-erdenkinder = erdenkinder.fanstatic:library
-
