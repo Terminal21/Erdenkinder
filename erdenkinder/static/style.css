@@ -41,11 +41,10 @@ div#rotation img {
 }
 
 /* overrides */
-.navbar .nav > li > a {
+.navbar-default {
   color: #669129;
 }
 
-span.brand a, span.brand a:hover {
-  color: #669129;
+.navbar-brand {
   font-weight: bold;
 }
