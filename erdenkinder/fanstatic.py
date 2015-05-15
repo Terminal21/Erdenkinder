@@ -7,4 +7,3 @@ from kotti.fanstatic import base_css
 
 library = Library("erdenkinder", "static")
 erdenkinder_css = Resource(library, "style.css", depends=[base_css])
-erdenkinder_group = Group([erdenkinder_css])

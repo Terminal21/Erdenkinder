@@ -41,7 +41,11 @@ div#rotation img {
 }
 
 /* overrides */
-.navbar-default {
+#editor-bar {
+    margin-top: none;
+}
+
+.navbar-default .navbar-brand {
   color: #669129;
 }
 
