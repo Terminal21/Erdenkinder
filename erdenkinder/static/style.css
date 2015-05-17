@@ -42,7 +42,7 @@ div#rotation img {
 
 /* overrides */
 #editor-bar {
-    margin-top: none;
+    margin-top: 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -51,4 +51,8 @@ div#rotation img {
 
 .navbar-brand {
   font-weight: bold;
+}
+
+.navbar .nav > li > a {
+  color: #669129;
 }
